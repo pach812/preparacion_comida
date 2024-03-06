@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "preparacion-comida"
+version = "0.1.0"
+description = "Package for dogs meal prep"
+authors = ["Francisco Jesus Ocazionez Cardozo <pach812@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.6.3"
+streamlit = "^1.31.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
